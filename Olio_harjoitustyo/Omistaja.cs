@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Olio_harjoitustyo
 {
-    class Hevonen
+    class Omistaja
     {
-        //Hevonen-luokan ominaisuudet
-        String hevonenNimi;
-        String rotu;
+        //Omistaja-luokan ominaisuudet
+        String omistajaNimi;
+        String puhnum;
 
-        //Hevonen-luokan metodit
+        //Omistaja-luokan metodit
 
     }
 }

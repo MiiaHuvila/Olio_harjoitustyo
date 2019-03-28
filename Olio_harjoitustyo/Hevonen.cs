@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Olio_harjoitustyo
 {
-    class Program
+    class Hevonen
     {
-        static void Main(string[] args)
-        {
+        //Hevonen-olion ominaisuudet
+        String hevonenNimi;
+        String rotu;
 
-        }
+        //Hevonen-olion metodit
+
     }
 }

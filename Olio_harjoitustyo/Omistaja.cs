@@ -14,25 +14,25 @@ namespace Olio_harjoitustyo
 
         /*  Omistaja-luokan metodit */
         //Tiedon tuominen olioon
-        void laitaOmistajaTiedot(string on, string ph)
+        public void laitaOmistajaTiedot(string on, string ph)
         {
             omistajaNimi = on;
             puhnum = ph;
         }
-        void laitaOmistajaNimi(string on)
+        public void laitaOmistajaNimi(string on)
         {
             omistajaNimi = on;
         }
-        void laitaPuhnum(string ph)
+        public void laitaPuhnum(string ph)
         {
             puhnum = ph;
         }
         //Tiedon vieminen oliosta
-        string vieOmistajaNimi()
+        public string vieOmistajaNimi()
         {
             return omistajaNimi;
         }
-        string viePuhnum()
+        public string viePuhnum()
         {
             return puhnum;
         }

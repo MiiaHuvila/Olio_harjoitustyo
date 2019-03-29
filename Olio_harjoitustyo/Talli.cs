@@ -15,34 +15,34 @@ namespace Olio_harjoitustyo
 
         /*  Talli-luokan metodit    */
         //Tiedon tuominen olioon
-        void laitaTalliTiedot(string tn, string pk, string ph)
+        public void laitaTalliTiedot(string tn, string pk, string ph)
         {
             talliNimi = tn;
             paikkakunta = pk;
             puh = ph;
         }
-        void laitaTalliNimi(string tn)
+        public void laitaTalliNimi(string tn)
         {
             talliNimi = tn;
         }
-        void laitaPaikkakunta(string pk)
+        public void laitaPaikkakunta(string pk)
         {
             paikkakunta = pk;
         }
-        void laitaPuh(string ph)
+        public void laitaPuh(string ph)
         {
             puh = ph;
         }
         //Tiedon vieminen oliosta
-        string vieTalliNimi()
+        public string vieTalliNimi()
         {
             return talliNimi;
         }
-        string viePaikkakunta()
+        public string viePaikkakunta()
         {
             return paikkakunta;
         }
-        string viePuh()
+        public string viePuh()
         {
             return puh;
         }

@@ -14,20 +14,21 @@ namespace Olio_harjoitustyo
 
         /*  Hevonen-luokan metodit  */
         //tiedon tuominen olioon
-        void laitaHevonenNimi(string hn)
+        
+        public void laitaHevonenNimi(string hn)
         {
             hevonenNimi = hn;
         }
-        void laitaHevonenRotu(string r)
+        public void laitaHevonenRotu(string r)
         {
             rotu = r;
         }
         //tiedon vieminen oliosta
-        string vieHevonenNimi()
+        public string vieHevonenNimi()
         {
             return hevonenNimi;
         }
-        string vieHevonenRotu()
+        public string vieHevonenRotu()
         {
             return rotu;
         }

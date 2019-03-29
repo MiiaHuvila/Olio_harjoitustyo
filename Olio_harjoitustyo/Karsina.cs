@@ -12,5 +12,6 @@ namespace Olio_harjoitustyo
         String kuivike;
 
         //Karsina-luokan metodit
+
     }
 }

@@ -9,8 +9,8 @@ namespace Olio_harjoitustyo
     class Hevonen
     {
         /*  Hevonen-luokan ominaisuudet */
-        String hevonenNimi;
-        String rotu;
+        private String hevonenNimi;
+        private String rotu;
 
         /*  Hevonen-luokan metodit  */
         //tiedon tuominen olioon

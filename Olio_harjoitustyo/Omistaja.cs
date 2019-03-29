@@ -9,8 +9,8 @@ namespace Olio_harjoitustyo
     class Omistaja
     {
         //Omistaja-luokan ominaisuudet
-        String omistajaNimi;
-        String puhnum;
+        private String omistajaNimi;
+        private String puhnum;
 
         //Omistaja-luokan metodit
 

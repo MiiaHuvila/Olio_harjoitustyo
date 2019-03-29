@@ -9,7 +9,7 @@ namespace Olio_harjoitustyo
     class Karsina
     {
         //Karsina-luokan ominaisuudet
-        String kuivike;
+        private String kuivike;
 
         /*  Karsina-luokan metodit  */
         //Tiedon tuominen olioon

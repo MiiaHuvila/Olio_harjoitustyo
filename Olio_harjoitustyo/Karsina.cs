@@ -11,7 +11,16 @@ namespace Olio_harjoitustyo
         //Karsina-luokan ominaisuudet
         String kuivike;
 
-        //Karsina-luokan metodit
-
+        /*  Karsina-luokan metodit  */
+        //Tiedon tuominen olioon
+        void laitaKuivike(string k)
+        {
+            kuivike = k;
+        }
+        //Tiedon vieminen oliosta
+        string vieKuivike()
+        {
+            return kuivike;
+        }
     }
 }

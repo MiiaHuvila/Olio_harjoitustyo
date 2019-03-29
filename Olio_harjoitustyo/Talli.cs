@@ -33,7 +33,7 @@ namespace Olio_harjoitustyo
         {
             puh = ph;
         }
-        //Tiedon vieminen muuttujasta
+        //Tiedon vieminen oliosta
         string vieTalliNimi()
         {
             return talliNimi;

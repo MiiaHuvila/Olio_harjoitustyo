@@ -18,14 +18,16 @@ namespace Olio_harjoitustyo
             hevonen1.laitaHevonenNimi("Tukkajumala");
             hevonen1.laitaHevonenRotu("Suomenhevonen");
             Console.WriteLine("Hevosen nimi on " + hevonen1.vieHevonenNimi() + " ja hevosen rotu on " + hevonen1.vieHevonenRotu());
+            Console.WriteLine(hevonen1.vieOmistajatiedot());
             
             Karsina karsina1 = new Karsina();
             karsina1.laitaKuivike("Hamppu");
             Console.WriteLine("Karsinan kuivikkeena on " + karsina1.vieKuivike());
 
             Omistaja omistaja1 = new Omistaja();
-            omistaja1.laitaOmistajaTiedot("Matti Meikäläinen", "0449729028");
-            Console.WriteLine("Omistajan nimi on " +omistaja1.vieOmistajaNimi()+ " ja hänet tavoittaa numerosta " +omistaja1.viePuhnum());
+            omistaja1.laitaOmistajaTiedot("Matti Meikäläinen", "044*******");
+            hevonen1.laitaOmistaja(omistaja1);
+            Console.WriteLine(hevonen1.vieOmistajatiedot());
             Console.ReadLine();
         }
     }

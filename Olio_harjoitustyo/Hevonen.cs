@@ -11,6 +11,7 @@ namespace Olio_harjoitustyo
         /*  Hevonen-luokan ominaisuudet */
         private String hevonenNimi;
         private String rotu;
+        private Omistaja omaOmistaja;
 
         /*  Hevonen-luokan metodit  */
         //tiedon tuominen olioon
@@ -23,6 +24,11 @@ namespace Olio_harjoitustyo
         {
             rotu = r;
         }
+        //omistajan lisääminen olioon
+        public void laitaOmistaja(Omistaja o)
+        {
+            omaOmistaja = o;
+        }
         //tiedon vieminen oliosta
         public string vieHevonenNimi()
         {
@@ -31,6 +37,18 @@ namespace Olio_harjoitustyo
         public string vieHevonenRotu()
         {
             return rotu;
+        }
+        public string vieOmistajatiedot()
+        {
+            if (omaOmistaja != null)
+            {
+                string ot = "Omistajan nimi on " + omaOmistaja.vieOmistajaNimi() + " ja omistajan puhelinnumero on " + omaOmistaja.viePuhnum();
+                return ot;
+            }
+            else
+            {
+                return "Kyseiseisen hevosen tietoihin ei ole liitetty omistajaa.";
+            }
         }
     }
 }

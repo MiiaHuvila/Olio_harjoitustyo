@@ -23,6 +23,9 @@ namespace Olio_harjoitustyo
             Karsina karsina1 = new Karsina();
             karsina1.laitaKuivike("Hamppu");
             Console.WriteLine("Karsinan kuivikkeena on " + karsina1.vieKuivike());
+            Console.WriteLine(karsina1.vieTalliTiedot());
+            karsina1.laitaTalli(talli1);
+            Console.WriteLine(karsina1.vieTalliTiedot());
 
             Omistaja omistaja1 = new Omistaja();
             omistaja1.laitaOmistajaTiedot("Matti Meikäläinen", "044*******");

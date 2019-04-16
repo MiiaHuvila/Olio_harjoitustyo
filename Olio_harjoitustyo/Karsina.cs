@@ -43,7 +43,19 @@ namespace Olio_harjoitustyo
             }
             else
             {
-                return "Karsinan tietoihin ei ole merkitty tallia";
+                return "Karsinan tietoihin ei ole merkitty tallia.";
+            }
+        }
+        public string vieAsukasTiedot()
+        {
+            if (asukas != null)
+            {
+                string at = "Karsinassa asuu " + asukas.vieHevonenRotu() + " " + asukas.vieHevonenNimi() + ". " + asukas.vieOmistajatiedot();
+                return at;
+            }
+            else
+            {
+                return "Karsinassa ei ole asukasta.";
             }
         }
     }

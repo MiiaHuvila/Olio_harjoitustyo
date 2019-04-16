@@ -42,7 +42,7 @@ namespace Olio_harjoitustyo
         {
             if (omaOmistaja != null)
             {
-                string ot = "Omistajan nimi on " + omaOmistaja.vieOmistajaNimi() + " ja omistajan puhelinnumero on " + omaOmistaja.viePuhnum();
+                string ot = "Hevosen omistaa " + omaOmistaja.vieOmistajaNimi() + " ja omistajan puhelinnumero on " + omaOmistaja.viePuhnum();
                 return ot;
             }
             else
